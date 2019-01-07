@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            
             rb.AddForce(0, jumpForce * Time.deltaTime, 0, ForceMode.VelocityChange);
         }
 
